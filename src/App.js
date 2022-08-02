@@ -1,4 +1,5 @@
 import './App.css';
+import Main from './components/Main/Main';
 import Navbar from './components/Navbar';
 import Shipping from './components/Shipping';
 
@@ -8,6 +9,7 @@ function App() {
       <Navbar></Navbar>
       <hr className='h-4' />
       <Shipping/>
+      <Main/>
     </div>
   );
 }

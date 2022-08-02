@@ -6,7 +6,7 @@ import { FaSearch, FaShoppingCart, FaShippingFast, FaStore } from "react-icons/f
 const Shipping = () => {
     return (
         <div>
-            <div className='flex justify-between'>
+            <div className='flex justify-between items-center'>
                 <div>
                     <h1 className='text-3xl'>Shipping and Payment</h1>
                 </div>

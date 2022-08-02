@@ -15,3 +15,27 @@
     width: 100px;
     background-color: rgb(197, 192, 192);
 }
+
+.button{
+    background-color: #7ad0a7;
+    border: none;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+
+}
+.button1{
+    background-color: #fefffe;
+    border: 1px solid rgb(187, 179, 179);
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+}
+.inputss{
+    border-radius: 30px;
+    border: 1px solid rgb(171, 164, 164);
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
