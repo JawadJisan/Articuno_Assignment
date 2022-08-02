@@ -33,6 +33,14 @@
     padding-right: 50px;
     border-radius: 40px;
 }
+.button2{
+    background-color: #fefffe;
+    border: none;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+}
 .inputss{
     border-radius: 30px;
     border: 1px solid rgb(171, 164, 164);
@@ -61,4 +69,24 @@
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+}
+.cartlogo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid firebrick;
+    
+}
+.textCode{
+    color: rgb(142, 135, 135);
+}
+.total{
+    background-color: rgb(212, 209, 209);
+    text-align: center;
+    padding: 10px;
+    /* margin: 5px; */
+    border-radius: 40px;
+}
+.new{
+    text-align: center;
 }

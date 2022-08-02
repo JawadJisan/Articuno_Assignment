@@ -2,12 +2,12 @@ import React from 'react';
 
 const ShippingInfo = () => {
     return (
-        <div className='grid w-full'>
+        <div className='grid w-full ml-10 '>
             <div className='flex'>
                 <button class="button btn">LOG IN</button>
                 <button class="btn button1 text-black">SIGN UP</button>
             </div>
-            <p className='mt-4 mb-4 text-lg'>Shipping Information</p>
+            <p className='mt-4 mb-4 text-xl'>Shipping Information</p>
 
             <div className='grid grid-cols-2 w-full'>
                 <input type="email" placeholder="Email" class="input inputss mb-5 mr-2" />
