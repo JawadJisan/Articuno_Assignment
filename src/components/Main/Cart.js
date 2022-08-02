@@ -1,5 +1,6 @@
 import React from 'react';
-import pp from './../../images/pp.png'
+import avater from './../../images/avater.jpg'
+
 import { FaShoppingCart, FaShippingFast } from "react-icons/fa";
 
 
@@ -11,7 +12,7 @@ const Cart = () => {
 
            <div className='items-center'>
            <div className='flex items-center w-full'>
-                <img className='cartlogo m-5' src={pp} alt="" />
+                <img className='cartlogo m-5' src={avater} alt="" />
                 <div className='m-5'>
                     <p>T-Shirt</p>
                     <p>Summer Vibes</p>
@@ -20,7 +21,7 @@ const Cart = () => {
                 <h1 className='m-5'>$89.99</h1>
             </div>
             <div className='flex items-center w-full'>
-                <img className='cartlogo m-5' src={pp} alt="" />
+                <img className='cartlogo m-5' src={avater} alt="" />
                 <div className='m-5'>
                     <p>Basic Slim</p>
                     <p>Fit T-Shirt</p>
@@ -31,7 +32,7 @@ const Cart = () => {
 
             <p className='total'>Total Cost: <span className='ml-7 text-xl font-semibold'>$159.98</span> </p>
 
-            <div className='flex text-center new items-center'>
+            <div className='flex text-center new items-center mt-14'>
                 <FaShippingFast class="h-10 w-10 rounded-full cart "></FaShippingFast>
                 <p>You are <span className='text-xl font-semibold'>$30.02</span> away <br /> from free shipping! </p>
 
